@@ -1,0 +1,97 @@
+@media (min-width: 768px) {
+  html,
+  body,
+  #login {
+    height: 100%;
+  }
+}
+
+#login {
+  background: url("../asset/bg.jpg");
+  background-size: cover;
+  background-position-y: 100%;
+}
+
+.box {
+  max-width: 616px;
+  width: 100%;
+  min-height: 464px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 9px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.hei-464 {
+  height: 464px;
+}
+
+.bg-primary {
+  background: #417dde !important;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+#dash {
+  height: 100%;
+  background: #f6f6f6;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+#sidebar {
+  min-height: 93vh;
+  background: #282a31;
+  padding: 0;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+#sidebar ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.521);
+  width: 100%;
+  padding: 12px;
+}
+
+#sidebar ion-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+#sidebar a:hover {
+  background: rgba(0, 0, 0, 0.363);
+  color: #fff;
+}
+
+#main {
+  min-height: 98vh;
+}
+
+.tostart {
+  min-height: 98vh;
+}
+
+.card {
+  max-width: 616px;
+  width: 100%;
+  background: #fff;
+  max-height: 184px;
+}
+
+.start-nb {
+  background: rgba(226, 219, 219, 0.548);
+  border-left: #417dde 5px solid;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background: #417dde;
+}
+
+#status {
+  background: #fff;
+}
